@@ -1,0 +1,41 @@
+{% extends 'basespaced.html' %}
+
+{% load i18n %}
+    
+{% block corpo %}
+
+<div class="container">
+
+	<table>
+
+	<tr>
+	<td><h1>Saiba usar o canivete suiço do shell: <a href="http://www.vivaolinux.com.br/dica/Comandos-de-compactacaodescompactacao">tar</a> , <a href="http://sejalivre.org/aprendendo-a-usar-o-comando-find/">find</a> , <a href="http://www.cyberciti.biz/networking/nmap-command-examples-tutorials/">nmap</a> , <a href="http://www.tutorialspoint.com/unix_commands/mtr.htm">mtr</a> , <a href="https://www.digitalocean.com/community/tutorials/how-to-use-netcat-to-establish-and-test-tcp-and-udp-connections-on-a-vps">nc</a> e <a href="http://www.thegeekstuff.com/2010/11/50-linux-commands/">muito mais</a>.</td>
+	</tr>
+	<tr>
+	<td><h1>Não fique no básico: <a href="http://rberaldo.com.br/o-comando-sed-do-linux/">sed</a> , <a href="http://www.cyberciti.biz/faq/howto-use-grep-command-in-linux-unix/">grep</a> , <a href="http://www.grymoire.com/Unix/Awk.html">awk</a>. </td>
+	</tr>
+
+	</table>
+
+<table>
+	<tr>
+	<td><h1>Alguns exemplos:</td>
+	</tr>
+	<tr>
+	<td><h2>sudo !!      </td>
+	<td><h2>ctrl-R     </td>
+	</tr>
+	<tr>
+	<td><h2>export HISTTIMEFORMAT="%d/%m/%y %T "     </td>
+	<td><h2>cp /etc/hosts{,.bkp}      </td>
+	</tr>
+	<tr>
+	<td><h2>wget --no-check-certificate --no-cookies --header "Cookie: oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u45-b14/jdk-8u45-linux-x64.rpm     </td>
+	</tr>
+
+</table>
+
+</div>
+
+{% endblock %}
+
