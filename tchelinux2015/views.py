@@ -53,9 +53,6 @@ def slide7(request):
 	titulo = "Thw Wizard of Bash"
         return render_to_response("slide7.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
-def slide7emeio(request):
-	return render_to_response("slide7emeio")
-
 def slide8(request):
 	number = 8
 	anterior = "/slide7/"
@@ -74,5 +71,5 @@ def slide10(request):
 	number = 10
 	anterior = "/slide9/"
 	proximo = "/slide11/"
-	titulo = ""
+	titulo = "Backups? We don't need no stinking backups!"
         return render_to_response("slide10.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
