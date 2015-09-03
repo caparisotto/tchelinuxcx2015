@@ -34,6 +34,7 @@ urlpatterns = [
     url(r'^slide14/', 'tchelinux2015.views.slide14'),
     url(r'^slide15/', 'tchelinux2015.views.slide15'),
     url(r'^slide16/', 'tchelinux2015.views.slide16'),
+    url(r'^end/', 'tchelinux2015.views.final'),
 
 #    url(r'^admin/', include(admin.site.urls)),
 ]
