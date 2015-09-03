@@ -92,7 +92,7 @@ def slide13(request):
 	number = 13
 	anterior = "/slide12/"
 	proximo = "/slide14/"
-	titulo = "Backups? We don't need no stinking backups!"
+	titulo = "Alpha Doc"
         return render_to_response("slide13.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def slide14(request):
@@ -103,6 +103,6 @@ def slide14(request):
         return render_to_response("slide14.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def final(request):
-	titulo = ""
-	anterior = "/slide20/"
+	titulo = "...and I Thank You"
+	anterior = "/slide30/"
         return render_to_response("ultimo.html",{'titulo': titulo, 'anterior': anterior})
