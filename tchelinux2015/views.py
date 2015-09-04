@@ -50,7 +50,7 @@ def slide7(request):
 	number = 7
 	anterior = "/slide6/"
 	proximo = "/slide8/"
-	titulo = "Thw Wizard of Bash"
+	titulo = "The Wizard of Bash"
         return render_to_response("slide7.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def slide8(request):
