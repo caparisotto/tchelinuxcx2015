@@ -99,7 +99,7 @@ def slide14(request):
 	number = 14
 	anterior = "/slide13/"
 	proximo = "/end/"
-	titulo = ".."
+	titulo = "Final Consideration"
         return render_to_response("slide14.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def final(request):
