@@ -21,6 +21,7 @@ urlpatterns = [
     url(r'^$', 'tchelinux2015.views.inicial'),
     url(r'^slide2/', 'tchelinux2015.views.slide2'),
     url(r'^slide3/', 'tchelinux2015.views.slide3'),
+    url(r'^slide3_2/', 'tchelinux2015.views.slide3_2'),
     url(r'^slide4/', 'tchelinux2015.views.slide4'),
     url(r'^slide5/', 'tchelinux2015.views.slide5'),
     url(r'^slide6/', 'tchelinux2015.views.slide6'),

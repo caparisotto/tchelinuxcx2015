@@ -25,6 +25,14 @@ def slide3(request):
 	titulo = "The Perks of Time Management"
         return render_to_response("slide3.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
+def slide3_2(request):
+	number = 3
+	anterior = "/slide2/"
+	proximo = "/slide4/"
+	titulo = "The Perks of Time Management"
+        return render_to_response("slide3_2.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
+
+
 def slide4(request):
 	number = 4
 	anterior = "/slide3/"
