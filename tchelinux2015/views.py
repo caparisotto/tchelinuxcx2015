@@ -7,7 +7,7 @@ import os,sys,psycopg2.extras
 # Create your views here.
 
 def inicial(request):
-	titulo = "We need to talk about System Administration"
+	titulo = "Precisamos falar sobre Administração de Sistemas"
 	proximo = "/slide2/"
         return render_to_response("capa.html",{'titulo': titulo, 'proximo': proximo})
 
@@ -22,14 +22,14 @@ def slide3(request):
 	number = 3
 	anterior = "/slide2/"
 	proximo = "/slide4/"
-	titulo = "The Perks of Time Management"
+	titulo = "Gerenciamento de Tempo"
         return render_to_response("slide3.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def slide3_2(request):
 	number = 3
 	anterior = "/slide2/"
 	proximo = "/slide4/"
-	titulo = "The Perks of Time Management"
+	titulo = "Gerenciamento de Tempo"
         return render_to_response("slide3_2.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 
@@ -37,77 +37,77 @@ def slide4(request):
 	number = 4
 	anterior = "/slide3/"
 	proximo = "/slide5/"
-	titulo = "What we got here is a failure in a service"
+	titulo = "Monitoramento"
         return render_to_response("slide4.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def slide5(request):
 	number = 5
 	anterior = "/slide4/"
 	proximo = "/slide6/"
-	titulo = "Elementary, my dear"
+	titulo = "English Language"
         return render_to_response("slide5.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def slide6(request):
 	number = 6
 	anterior = "/slide5/"
 	proximo = "/slide7/"
-	titulo = "Toto, I've a feeling that we're in Windows anymore"
+	titulo = "B.A.S.H."
         return render_to_response("slide6.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def slide7(request):
 	number = 7
 	anterior = "/slide6/"
 	proximo = "/slide8/"
-	titulo = "The Wizard of Bash"
+	titulo = "B.A.S.H."
         return render_to_response("slide7.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def slide8(request):
 	number = 8
 	anterior = "/slide7/"
 	proximo = "/slide9/"
-	titulo = "All These Things"
+	titulo = "Soluções/Ferramentas"
         return render_to_response("slide8.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def slide9(request):
 	number = 9
 	anterior = "/slide8/"
 	proximo = "/slide10/"
-	titulo = "Show me the code!"
+	titulo = "Aprenda a Programar"
         return render_to_response("slide9.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def slide10(request):
 	number = 10
 	anterior = "/slide9/"
 	proximo = "/slide11/"
-	titulo = "Backups? We don't need no stinking backups!"
+	titulo = "Segurança da Informação"
         return render_to_response("slide10.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def slide11(request):
 	number = 11
 	anterior = "/slide10/"
 	proximo = "/slide12/"
-	titulo = "It's a Wonderful Site"
+	titulo = "Fontes de Informação"
         return render_to_response("slide11.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def slide12(request):
 	number = 12
 	anterior = "/slide11/"
 	proximo = "/slide13/"
-	titulo = "There's no place like the Internet"
+	titulo = "Fontes de Informação"
         return render_to_response("slide12.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def slide13(request):
 	number = 13
 	anterior = "/slide12/"
 	proximo = "/slide14/"
-	titulo = "The Documentation"
+	titulo = "Documentação/Projeto"
         return render_to_response("slide13.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def slide14(request):
 	number = 14
 	anterior = "/slide13/"
 	proximo = "/end/"
-	titulo = "Final Consideration"
+	titulo = "Considerações Finais"
         return render_to_response("slide14.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def final(request):
