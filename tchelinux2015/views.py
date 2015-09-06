@@ -97,6 +97,6 @@ def slide12(request):
         return render_to_response("slide12.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def final(request):
-	titulo = "...and I Thank You"
+	titulo = "Obrigado!"
 	anterior = "/slide12/"
         return render_to_response("ultimo.html",{'titulo': titulo, 'anterior': anterior})
