@@ -58,7 +58,7 @@ def slide7(request):
 	number = 7
 	anterior = "/slide6/"
 	proximo = "/slide8/"
-	titulo = "B.A.S.H."
+	titulo = "Soluções/Ferramentas"
         return render_to_response("slide7.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def slide8(request):
@@ -79,7 +79,7 @@ def slide10(request):
 	number = 10
 	anterior = "/slide9/"
 	proximo = "/slide11/"
-	titulo = "Segurança da Informação"
+	titulo = ""
         return render_to_response("slide10.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def slide11(request):
@@ -100,7 +100,7 @@ def slide13(request):
 	number = 13
 	anterior = "/slide12/"
 	proximo = "/slide14/"
-	titulo = "Documentação/Projeto"
+	titulo = "Documentação/Projetos"
         return render_to_response("slide13.html",{'titulo': titulo, 'number': number, 'anterior': anterior, 'proximo': proximo})
 
 def slide14(request):
