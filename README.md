@@ -11,9 +11,11 @@ Caso optar por visualizar os HTMLs e até editá-los, eles estão na pasta Templ
 Para iniciar a aplicação (testado em Centos7):
 yum -y install epel-release
 yum -y install wget python python-pip zip unzip
-#O Django precisa ser instalado via PIP. Se for via Yum
-#vai baixar versão menor que a 1.8, aí não vai funcionar.
-#Depois não diga que eu não avisei
+
+---O Django precisa ser instalado via PIP. Se for via Yum
+---vai baixar versão menor que a 1.8, aí não vai funcionar.
+---Depois não diga que eu não avisei
+
 pip install Django
 wget https://github.com/caparisotto/tchelinuxcx2015/archive/master.zip   <ou>  baixar pelo Github
 unzip master.zip
