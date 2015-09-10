@@ -17,7 +17,7 @@ yum -y install wget python python-pip zip unzip<br>
 ---Depois não diga que eu não avisei<br>
 
 pip install Django<br>
-wget https://github.com/caparisotto/tchelinuxcx2015/archive/master.zip   <ou>  baixar pelo Github<br>
+wget https://github.com/caparisotto/tchelinuxcx2015/archive/master.zip   -ou-  baixar pelo Github<br>
 unzip master.zip<br>
 cd tchelinuxcx2015-master<br>
 ./manage.py runserver 0.0.0.0:8000<br>
